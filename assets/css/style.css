@@ -295,12 +295,19 @@ h6 {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    padding-left: 20px;
+    padding-top: 20px;
   }
 
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    
+  }
+  #hero p {
+    padding-left: 20px;
+   
   }
 }
 
@@ -1108,4 +1115,21 @@ section {
 
 a .btn{
   text-align: center;
+}
+
+#hero .hero-container img{
+  width: 50%;
+  position: relative;
+  left: 90px;
+}
+
+#hero .hero-container {
+ margin: auto;
+}
+
+@media (min-width: 500px) {
+  #hero .hero-container img{
+    display: none;
+  }
+  
 }
